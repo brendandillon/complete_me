@@ -3,7 +3,6 @@
     "coverage": {
       "/Users/brendandillon/turing/1module/complete-me/lib/complete_me.rb": [
         1,
-        1,
         null,
         1,
         1,
@@ -95,10 +94,8 @@
         41,
         1,
         null,
-        null,
         41,
         13,
-        null,
         null,
         null,
         null,
@@ -172,6 +169,6 @@
         null
       ]
     },
-    "timestamp": 1467925167
+    "timestamp": 1467984683
   }
 }

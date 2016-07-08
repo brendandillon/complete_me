@@ -68,8 +68,8 @@ class CompleteMe
   def get_suggestions(current_node)
     if is_node?(current_node)
       search_branches(current_node)
-      sorted_suggestions = @suggestions.sort do |left, right|
-        right[1].weight <=> left[1].weight
+      sorted_suggestions = @suggestions.sort do |less, more|
+        more[1].weight <=> less[1].weight
       end
       output = sorted_suggestions.map do |suggestion|
         suggestion[0]
